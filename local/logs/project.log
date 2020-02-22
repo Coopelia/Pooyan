@@ -1,0 +1,273 @@
+2020-02-21T06:28:52.052Z - normal: Load ~/.CocosCreator/settings.json
+2020-02-21T06:28:52.182Z - normal: Initializing Asset Database
+2020-02-21T06:28:52.213Z - normal: checking language setting...
+2020-02-21T06:28:52.214Z - normal: Language: zh
+2020-02-21T06:28:53.943Z - success: preview server running at http://localhost:7456
+2020-02-21T06:28:53.947Z - success: protocol editor-framework registered
+2020-02-21T06:28:53.947Z - success: protocol app registered
+2020-02-21T06:28:53.947Z - success: protocol theme registered
+2020-02-21T06:28:53.947Z - success: protocol packages registered
+2020-02-21T06:28:53.947Z - success: protocol uuid registerred
+2020-02-21T06:28:53.947Z - success: protocol db registerred
+2020-02-21T06:28:53.947Z - success: protocol thumbnail registerred
+2020-02-21T06:28:53.947Z - success: protocol unpack registerred
+2020-02-21T06:28:53.947Z - success: protocol disable-commonjs registerred
+2020-02-21T06:28:54.332Z - normal: connected!
+2020-02-21T06:28:54.332Z - normal: Check project D:\CocosProjects\NewProject
+2020-02-21T06:28:54.334Z - normal: Initializing project D:\CocosProjects\NewProject
+2020-02-21T06:28:54.709Z - success: adapters loaded
+2020-02-21T06:28:54.727Z - success: asset-db-debugger loaded
+2020-02-21T06:28:54.983Z - success: fb-audience-network loaded
+2020-02-21T06:28:55.067Z - success: fb-live-stream loaded
+2020-02-21T06:28:55.085Z - success: google-play-instant loaded
+2020-02-21T06:28:55.134Z - success: huawei-runtime loaded
+2020-02-21T06:28:55.135Z - success: jkw-adapter loaded
+2020-02-21T06:28:55.137Z - success: jsb-adapter loaded
+2020-02-21T06:28:55.195Z - success: oppo-runtime loaded
+2020-02-21T06:28:55.213Z - success: package-manager loaded
+2020-02-21T06:28:55.214Z - success: qtt-adapter loaded
+2020-02-21T06:28:55.218Z - success: runtime-dev-tools loaded
+2020-02-21T06:28:55.231Z - success: sdkbox loaded
+2020-02-21T06:28:55.245Z - success: ui-kit-preview-extra loaded
+2020-02-21T06:28:55.257Z - success: ui-kit-preview loaded
+2020-02-21T06:28:55.284Z - success: vivo-runtime loaded
+2020-02-21T06:28:55.297Z - success: alipay-minigame loaded
+2020-02-21T06:28:55.352Z - success: assets loaded
+2020-02-21T06:28:55.356Z - success: baidugame-opendata loaded
+2020-02-21T06:28:55.359Z - success: baidugame loaded
+2020-02-21T06:28:55.396Z - success: builder loaded
+2020-02-21T06:28:55.905Z - success: cocos-services loaded
+2020-02-21T06:28:55.910Z - success: console loaded
+2020-02-21T06:28:55.921Z - success: fb-instant-games loaded
+2020-02-21T06:28:55.925Z - success: game-window loaded
+2020-02-21T06:28:55.927Z - success: google-instant-games loaded
+2020-02-21T06:28:55.931Z - success: hierarchy loaded
+2020-02-21T06:28:55.934Z - success: inspector loaded
+2020-02-21T06:28:56.939Z - success: cpk-publish loaded
+2020-02-21T06:28:56.944Z - success: keystore loaded
+2020-02-21T06:28:56.955Z - success: node-library loaded
+2020-02-21T06:28:56.957Z - success: open-recent-items loaded
+2020-02-21T06:28:56.959Z - success: package-asset loaded
+2020-02-21T06:28:56.961Z - success: preferences loaded
+2020-02-21T06:28:56.962Z - success: project-exporter loaded
+2020-02-21T06:28:56.965Z - success: project-importer loaded
+2020-02-21T06:28:56.966Z - success: project-settings loaded
+2020-02-21T06:28:56.981Z - success: qtt-runtime loaded
+2020-02-21T06:28:56.986Z - success: scene loaded
+2020-02-21T06:28:56.988Z - success: simulator-debugger loaded
+2020-02-21T06:28:56.990Z - success: sprite-editor loaded
+2020-02-21T06:28:56.993Z - success: store loaded
+2020-02-21T06:28:57.002Z - success: timeline loaded
+2020-02-21T06:28:57.008Z - success: wechatgame-opendata loaded
+2020-02-21T06:28:57.016Z - success: wechatgame loaded
+2020-02-21T06:28:57.021Z - success: xiaomi-runtime loaded
+2020-02-21T06:28:58.130Z - normal: Initializing Cocos2d
+2020-02-21T06:28:59.318Z - normal: Initializing engine extends
+2020-02-21T06:29:01.527Z - info: Cocos Service load base data!
+2020-02-21T06:29:01.724Z - normal: Loading packages
+2020-02-21T06:29:01.730Z - normal: Watching packages
+2020-02-21T06:29:02.282Z - normal: Run Application
+2020-02-21T06:29:37.963Z - success: API data generated and copied to D:\CocosProjects\NewProject\creator.d.ts
+2020-02-21T06:31:09.510Z - failed: [db-task][sync-changes] Failed to import asset D:\CocosProjects\NewProject\assets\Script\game.js, message: Compile error: SyntaxError: D:/CocosProjects/NewProject/assets/Script/game.js: Unexpected token, expected , (6:11)
+  4 |     wolfAtLadder: 0,
+  5 |     wolfUnderLadder: 0,
+> 6 |     HP: 100;
+    |            ^
+  7 | };
+  8 | 
+  9 | cc.Class({
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2020-02-21T06:34:33.195Z - error: TypeError: Cannot read property '_uuid' of null
+    at Object.c.linkPrefab (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\prefab.js:1:3792)
+    at cc_Node._onHierarchyChanged (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:617:37)
+    at cc_Node._onHierarchyChanged (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCNode.js:783:22)
+    at cc_Node.setParent (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:219:26)
+    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:5490
+    at cc_Prefab.cc.Class.createNode (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\assets\CCPrefab.js:43:17)
+    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\node.js:1:5101
+    at CCLoader.<anonymous> (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCAssetLibrary.js:66:25)
+    at D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\load-pipeline\CCLoader.js:141:46
+    at D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\utils.js:49:25
+2020-02-21T06:39:30.974Z - error: Error: node should not deactivated
+    at Object.cc.assert (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:100:35)
+    at CCClass._deactivateNodeRecursively (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\node-activator.js:151:24)
+    at CCClass.activateNode (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\node-activator.js:190:26)
+    at cc_Node.set [as active] (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:159:64)
+    at cc_Node.destroy (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:570:33)
+    at Object.n._destroyForUndo (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\node.js:1:3864)
+    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:5785
+    at Array.forEach (<anonymous>)
+    at Object.deleteNodes (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:5771)
+    at HTMLElement.delete-nodes (D:\CocosCreator\resources\app.asar\editor\builtin\scene\panel\messages\scene-operation.js:1:2526)
+2020-02-21T06:39:33.584Z - error: TypeError: Cannot read property '_uuid' of null
+    at Object.c.linkPrefab (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\prefab.js:1:3792)
+    at cc_Node._onHierarchyChanged (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:617:37)
+    at cc_Node._onHierarchyChanged (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCNode.js:783:22)
+    at cc_Node.setParent (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:219:26)
+    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:5490
+    at cc_Prefab.cc.Class.createNode (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\assets\CCPrefab.js:43:17)
+    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\node.js:1:5101
+    at CCLoader.<anonymous> (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCAssetLibrary.js:66:25)
+    at D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\load-pipeline\CCLoader.js:141:46
+    at D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\utils.js:49:25
+2020-02-21T06:44:37.523Z - error: TypeError: Cannot read property '_uuid' of null
+    at Object.c.linkPrefab (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\prefab.js:1:3792)
+    at cc_Node._onHierarchyChanged (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:617:37)
+    at cc_Node._onHierarchyChanged (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCNode.js:783:22)
+    at cc_Node.setParent (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:213:30)
+    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:3991
+    at Array.forEach (<anonymous>)
+    at Object.moveNodes (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:3785)
+    at HTMLElement.move-nodes (D:\CocosCreator\resources\app.asar\editor\builtin\scene\panel\messages\scene-operation.js:1:2486)
+    at Object.e._dispatch (D:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+2020-02-21T06:48:34.746Z - failed: [db-task][sync-changes] Failed to import asset D:\CocosProjects\NewProject\assets\Script\hp.js, message: Compile error: SyntaxError: D:/CocosProjects/NewProject/assets/Script/hp.js: Unexpected token, expected , (6:25)
+  4 |     properties: {
+  5 |         hp: {
+> 6 |             default: null;
+    |                          ^
+  7 |             type: cc.ProgressBar,
+  8 |         },
+  9 |     },
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2020-02-21T06:50:33.615Z - error: TypeError: Cannot read property '_uuid' of null
+    at Object.c.linkPrefab (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\prefab.js:1:3792)
+    at cc_Node._onHierarchyChanged (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:617:37)
+    at cc_Node._onHierarchyChanged (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCNode.js:783:22)
+    at cc_Node.setParent (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\utils\base-node.js:219:26)
+    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:5490
+    at cc_Prefab.cc.Class.createNode (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\assets\CCPrefab.js:43:17)
+    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\node.js:1:5101
+    at CCLoader.<anonymous> (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCAssetLibrary.js:66:25)
+    at D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\load-pipeline\CCLoader.js:141:46
+    at D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\utils.js:49:25
+2020-02-21T07:04:54.529Z - info: 只有预制节点 "wolf" 及其子节点会被保存。
+2020-02-21T07:06:54.164Z - info: 只有预制节点 "wolf" 及其子节点会被保存。
+2020-02-21T07:19:03.115Z - error: Can not declare game.gameOver method, it is already defined in the properties of game.
+    at Object.cc.errorID (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:165:16)
+    at Object.exports.doValidateMethodWithProps_DEV (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:285:24)
+    at Object.exports.validateMethodWithProps (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:300:26)
+    at Object.CCClass [as Class] (D:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:694:33)
+    at __define (D:\CocosProjects\NewProject\temp\quick-scripts\assets\Script\game.js:15:4)
+    at D:\CocosProjects\NewProject\temp\quick-scripts\assets\Script\game.js:149:13
+    at Object.<anonymous> (D:\CocosProjects\NewProject\temp\quick-scripts\assets\Script\game.js:156:11)
+    at Object.<anonymous> (D:\CocosProjects\NewProject\temp\quick-scripts\assets\Script\game.js:159:3)
+    at Module._compile (internal/modules/cjs/loader.js:839:30)
+2020-02-21T08:31:29.399Z - failed: [db-task][sync-changes] Failed to import asset D:\CocosProjects\NewProject\assets\Script\game.js, message: Compile error: SyntaxError: D:/CocosProjects/NewProject/assets/Script/game.js: Unexpected character '�' (140:31)
+  138 |         if (this.gameOver) {
+  139 |             this.FailedGame();
+> 140 |             cc.director.pause()��
+      |                                ^
+  141 |         }
+  142 | 
+  143 |         if (this.shoot) {
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.getTokenFromCode (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1147:10)
+    at Parser.readToken (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:776:19)
+    at Parser.nextToken (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:766:19)
+    at Parser.next (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:691:10)
+    at Parser.eat (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:698:12)
+    at Parser.pp$3.parseCallExpressionArguments (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3560:16)
+    at Parser.pp$3.parseSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+2020-02-21T09:37:11.146Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android": {
+    "packageName": ""
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "D:\\CocosProjects\\NewProject\\build",
+  "debug": false,
+  "dest": "D:\\CocosProjects\\NewProject\\build\\web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": null,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": ""
+  },
+  "mac": {
+    "packageName": ""
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "",
+  "platform": "web-desktop",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "c9388b6b-beba-4393-977b-224045a5f624",
+    "a6ffabc2-7fba-4fb3-9b02-e12d922f2e70"
+  ],
+  "sourceMaps": false,
+  "startScene": "c9388b6b-beba-4393-977b-224045a5f624",
+  "template": "link",
+  "title": "Pooyan",
+  "useDebugKeystore": true,
+  "vsVersion": "2017",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "ea7b7b6e-72d7-4b",
+  "zipCompressJs": true,
+  "project": "D:\\CocosProjects\\NewProject",
+  "projectName": "Pooyan",
+  "debugBuildWorker": false
+}
+2020-02-21T09:37:11.147Z - normal: Building D:\CocosProjects\NewProject
+2020-02-21T09:37:11.147Z - normal: Destination D:\CocosProjects\NewProject\build\web-desktop
+2020-02-21T09:37:11.447Z - normal: Delete D:\CocosProjects\NewProject\build\web-desktop\subpackages/**/*,D:\CocosProjects\NewProject\build\web-desktop\**\*
+2020-02-21T09:37:14.449Z - normal: Start building assets
+2020-02-21T09:37:14.449Z - normal: Start spawn build-worker
+2020-02-21T09:37:15.068Z - normal: Finish spawn build-worker
+2020-02-21T09:37:15.068Z - normal: Start init build-worker
+2020-02-21T09:37:17.570Z - normal: Finish init build-worker
+2020-02-21T09:37:17.570Z - normal: Start build-assets in worker
+2020-02-21T09:37:17.993Z - normal: Finish build-assets in worker
+2020-02-21T09:37:18.003Z - normal: Finish building assets
+2020-02-21T09:37:18.015Z - normal: Start building plugin scripts
+2020-02-21T09:37:18.097Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
+2020-02-21T09:37:18.141Z - normal: Generating html from D:\CocosCreator\resources\static\build-templates\web-desktop\template\index.html
+2020-02-21T09:37:18.201Z - normal: Built to "D:\CocosProjects\NewProject\build\web-desktop" successfully
+2020-02-21T09:39:43.312Z - info: shutdown preview server
